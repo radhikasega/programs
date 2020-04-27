@@ -13,7 +13,7 @@ class square_area
     {
         System.out.println("The area of the square is "+area);
     }
-   public static void main()
+       public static void main()
    {
        square_area obj = new square_area();
        obj.init(4);

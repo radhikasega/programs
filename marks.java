@@ -7,20 +7,17 @@ class marks
         maths = m;
         hindi = h;
     }
-    void calculate()
+    int calculate()
     {
         avg = (eng+maths+hindi)/3;
-    }
-    void print()
-    {
-        System.out.println("The average marks of the student in hindi, english and maths is "+avg);
+        return avg;
     }
      public static void main()
  {
      marks obj = new marks ();
      obj.init(99,94,93);
-     obj.calculate();
-     obj.print();
+     int avg = obj.calculate();
+     System.out.print("The aveage is "+avg); 
     }
 }
         

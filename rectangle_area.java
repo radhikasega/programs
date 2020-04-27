@@ -6,20 +6,17 @@ public class rectangle_area
       l=15;
       b=10;
     }
-   void calculate()
+   int calculate()
     {
       a = l*b;
+      return a;
     }
-  void printArea()
- {
-  System.out.println("The area of the rectangle is "+a);
- }
- public static void main()
- {
+    public static void main()
+    {
      rectangle_area obj = new rectangle_area ();
      obj.initialize();
-     obj.calculate();
-     obj.printArea();
+     int a = obj.calculate();
+     System.out.println("The area of the rectangle is "+a);
     }
 }
   
