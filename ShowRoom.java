@@ -53,7 +53,7 @@ public class ShowRoom
     public static void main ()
     {
      ShowRoom obj = new ShowRoom ();
-     obj.input("Alicia Spencer", 932357655, 17500);
+     obj.input("Talia Sebastin", 932357655, 17500);
      obj.calculate();
      obj.display();
     }
