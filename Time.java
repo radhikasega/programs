@@ -20,6 +20,15 @@ public class Time
         System.out.println("The time in minutes is:" +min);
         System.out.println("The time in seconds is:" +sec);
     }
+    
+    public static void main ()
+    {
+        Time obj = new Time ();
+        obj.accept (3,45,27);
+        obj.convert ();
+        obj.showResult ();
+    }
+    
 }
 
         
