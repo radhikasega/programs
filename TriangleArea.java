@@ -4,8 +4,7 @@ public class TriangleArea
     void calculateArea (int a, int b, int c)
     {
         int s = (a + b + c)/2;
-        int d = s*(s-a)*(s-b)*(s-c);
-        double area = Math.sqrt(d);
+        double area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
         System.out.println ("The area of the triangle is " +area);
     }
     
@@ -18,7 +17,7 @@ public class TriangleArea
     public static void main ()
     {
         TriangleArea obj = new TriangleArea ();
-        obj.calculateArea (12, 7, 4);
+        obj.calculateArea (10, 7, 5);
         obj.calculateArea (9, 2);
     }
 }
