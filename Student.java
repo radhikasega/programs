@@ -4,7 +4,12 @@ public class Student
     String name;
     double m1, m2, m3, maximum, average;
     
-    public Student (String n, int a, double marks1, double marks2, double marks3)
+    Student (String n, int a, double marks1, double marks2, double marks3)
+    {
+        
+    }
+    
+    void accept (String n, int a, double marks1, double marks2, double marks3)
     {
         age = a;
         name = n;
@@ -30,7 +35,9 @@ public class Student
     
     public static void main ()
     {
-        Student obj = new Student ("Rhea Sebastin", 14, 98.00, 95.00, 92.00);
+        Student obj; 
+        obj = new Student ("Rhea Sebastin", 14, 98.00, 95.00, 92.00);
+        obj.accept ("Rhea Sebastin", 14, 98.00, 95.00, 92.00);
         obj.calculate ();
         obj.display ();
     }
