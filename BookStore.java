@@ -1,4 +1,4 @@
-                            public class BookStore
+public class BookStore
 {
     public static void main ()
     {
