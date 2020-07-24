@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Bill
+public class CyberCafe
 {
     double bill;
     int usage;
@@ -28,7 +28,7 @@ public class Bill
     
     public static void main ()
     {
-        Bill obj = new Bill ();
+        CyberCafe obj = new CyberCafe ();
         obj.getData ();
         obj.generateBill ();
     }
