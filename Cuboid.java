@@ -25,9 +25,9 @@ public class Cuboid
     public static void main ()
     {
         Cuboid vol1 = new Cuboid ();
-        System.out.println ("The volume of the cuboid is " +vol1.getVolume() );
+        System.out.println ("The volume of the cuboid is " +vol1.getVolume());
         Cuboid vol2 = new Cuboid (73.00, 247.00, 6294.000);
-        System.out.println ("The volume of the cuboid is " +vol2.getVolume() );
+        System.out.println ("The volume of the cuboid is " +vol2.getVolume());
     }
 }
 

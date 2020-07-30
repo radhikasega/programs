@@ -23,6 +23,7 @@ public class CyberCafe
         bill = 20 + 12 + 8;
         else
         bill = 20 + 12 + 8 + (usage-105)*2;
+        
         System.out.println ("The bill is Rs. " +bill);
     }
     
