@@ -1,11 +1,15 @@
-
+import java.util.*;
 public class TelegramBill
 {
     private int words;
     double bill;
 
-    void accept (int w)
+    void accept ()
     {
+        Scanner sc = new Scanner (System.in); 
+        int w = 0;
+        System.out.println ("Enter the number of words typed: ");
+        w = sc.nextInt ();
         words = w;
     }
     
@@ -23,7 +27,7 @@ public class TelegramBill
     public static void main ()
     {
         TelegramBill obj = new TelegramBill ();
-        obj.accept (73);
+        obj.accept ();
         obj.calculate ();
     }
 }
