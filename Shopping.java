@@ -9,6 +9,7 @@ public class Shopping
         float AdditionalDiscount = 0, NetAmount = 0;
         System.out.println ("BigLife Garment Store");
         System.out.println ("Enter purchase amount: ");
+        
         if (sc.hasNextFloat ())
         {
              PurchaseAmount = sc.nextFloat ();
@@ -30,7 +31,7 @@ public class Shopping
              {
                  AdditionalDiscount = NetAmount * 3/100;
                  System.out.println ("Additional Discount on " +NetAmount+ "is " +AdditionalDiscount);
-                 NetAmount = NetAmount - AdditionalDiscount;
+                 NetAmount = NetAmount - AdditionalDiscount;          
              }
              
              System.out.println ("The Net Amount is " +NetAmount);

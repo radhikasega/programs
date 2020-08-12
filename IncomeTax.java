@@ -18,25 +18,15 @@ public class IncomeTax
     void calculate ()
     {
         if (income<=40000)
-        {
             tax = 0.0;
-            System.out.println ("The tax to be paid by the employee is " +tax);
-        }
         else if ((income>40000) && (income<=70000))
-        {
             tax = income* 20/100;
-            System.out.println ("The tax to be paid by the employee is " +tax);
-        }
         else if ((income>70000) && (income<=100000))
-        {
             tax = income * 30/100;
-            System.out.println ("The tax to be paid by the employee is " +tax);
-        }
         else
-        {
             tax = income * 40/100;
-            System.out.println ("The tax to be paid by the employee is " +tax);
-        }
+            
+        System.out.println ("The tax to be paid by the employee is " +tax);
     }
     
     public static void main ()
