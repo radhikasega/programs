@@ -31,7 +31,7 @@ public class Series8
     {
         double sum = 0;
         for (int i = 1; i<=n; i++)
-             sum = sum + (numerator (i)) / (denominator (i));
+             sum = sum + (numerator (i+1)) / (denominator (i+1));
         System.out.println ("The sum of the series is " +sum);
     }
     
