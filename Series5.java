@@ -1,4 +1,5 @@
 // The series is: 1 + (1+2) +(1+2+3) + (1+2+3+4) + .... (1+2+3+4+...+n)
+// iam  using your code as reference, can you please explain return type statement in this program . Add comments in your program
 import java.util.Scanner;
 public class Series5
 {
@@ -37,4 +38,5 @@ public class Series5
 }
 
     
+
             
